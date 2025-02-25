@@ -16,7 +16,7 @@
 
 ## ⚙️ Installation  
 ```bash  
-git clone https://github.com/eesha2501/TimingPredict  
+git clone https://github.com/eesha2501/Timing_Predict  
 cd TimingPredict  
 pip install -r requirements.txt  
 ```
