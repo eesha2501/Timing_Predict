@@ -1,0 +1,32 @@
+%%{init: {'theme': 'neutral', 'themeVariables': { 'fontFamily': 'Arial', 'fontSize': '14px'}}}%%
+flowchart TD
+    A[Start: RTL Module Input] --> B[Data Collection]
+    B --> C[RTL Parsing & Feature Extraction]
+    C --> D[Feature Engineering]
+    D --> E[Train-Test Split]
+    E --> F[Model Training]
+    F --> G[Prediction]
+    G --> H[Timing Violation Check]
+    H --> I{Timing Violation?}
+    I -->|Yes| J[Flag for Redesign]
+    I -->|No| K[Proceed to Synthesis]
+    J --> L[Output: Violation Report]
+    K --> M[Output: Safe Logic Depth]
+
+    subgraph "Key Components"
+        B -->|Tools: PyVerilog, Synopsys DC| B1["Extract Features:<br>- Fan-In/Out<br>- Gate Path Count<br>- Arithmetic Ops"]
+        F -->|Algorithm: Random Forest| F1["Hyperparameters:<br>- n_estimators=100<br>- max_depth=10<br>- MAE=2.40"]
+        H -->|Formula: Total Delay = Depth * 0.1ns| H1["Check:<br>Total Delay > Clock Period?"]
+    end
+
+    style A fill:#4CAF50,color:white
+    style B fill:#2196F3,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#2196F3,color:white
+    style E fill:#9C27B0,color:white
+    style F fill:#FF9800,color:black
+    style G fill:#FF9800,color:black
+    style H fill:#FF5722,color:white
+    style I fill:#E91E63,color:white
+    style J fill:#F44336,color:white
+    style K fill:#4CAF50,color:white

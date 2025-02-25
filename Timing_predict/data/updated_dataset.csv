@@ -1,0 +1,5 @@
+fan_in,fan_out,gate_path_count,arithmetic_ops,conditional_nesting,logic_depth
+2,1,3,0,0,3
+4,2,5,1,1,7
+3,1,4,0,0,5
+5,3,6,2,2,10
