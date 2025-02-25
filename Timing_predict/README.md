@@ -21,7 +21,7 @@ cd TimingPredict
 pip install -r requirements.txt  
 ```
 ---
-##🎯 Quick Demo
+## 🎯 Quick Demo
 1. Predict Logic Depth for an RTL File:
 ```bash 
 # Extract features from RTL  
@@ -65,7 +65,7 @@ Prediction Output:
 2. RTL Parsing: PyVerilog + Custom Feature Extractor
 3. Validation: Timing Violation Checker (check_violation.py)
 ---
-#📈 Future Roadmap
+## 📈 Future Roadmap
 1. Integrate real-time RTL-to-gate path analysis.
 2. Improve MAE to <1.5 with larger datasets.
 3. Add GUI for non-technical users.
@@ -73,7 +73,7 @@ Prediction Output:
 
 
 ---
-#📜 License
+## 📜 License
 MIT © 2025 Eesha Singh
 
 
