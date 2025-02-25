@@ -60,7 +60,7 @@ Prediction Output:
 | **Scalability**      | 10k+ Gates           | Limited by EDA     |  
 
 ---
-#🛠️ Tech Stack
+## 🛠️ Tech Stack
 1. ML Model: Random Forest Regressor (Scikit-learn)
 2. RTL Parsing: PyVerilog + Custom Feature Extractor
 3. Validation: Timing Violation Checker (check_violation.py)
