@@ -20,8 +20,8 @@ git clone https://github.com/eesha2501/Timing_Predict
 cd TimingPredict  
 pip install -r requirements.txt  
 ```
-
-🎯 Quick Demo
+---
+##🎯 Quick Demo
 1. Predict Logic Depth for an RTL File:
 ```bash 
 # Extract features from RTL  
@@ -40,14 +40,14 @@ python src/check_violation.py --logic_depth 7.2 --clock_period 1.0
 ```bash  
 python src/train.py --data_path data/updated_dataset.csv  
 ```
-
+---
 ## 📸 Demo Output  
 ```bash 
 python src/predict.py
 ```
 Prediction Output:  
 ![Prediction Output](docs/prediction_output.png)
-
+---
 ## 🛠️ Workflow  
 ![Workflow](docs/workflow.png)
 
@@ -59,22 +59,21 @@ Prediction Output:
 | **Accuracy (MAE)**   | 2.40                 | N/A (Ground Truth) |  
 | **Scalability**      | 10k+ Gates           | Limited by EDA     |  
 
-
-
-🛠️ Tech Stack
+---
+#🛠️ Tech Stack
 1. ML Model: Random Forest Regressor (Scikit-learn)
 2. RTL Parsing: PyVerilog + Custom Feature Extractor
 3. Validation: Timing Violation Checker (check_violation.py)
-
-📈 Future Roadmap
+---
+#📈 Future Roadmap
 1. Integrate real-time RTL-to-gate path analysis.
 2. Improve MAE to <1.5 with larger datasets.
 3. Add GUI for non-technical users.
 
 
 
-
-📜 License
+---
+#📜 License
 MIT © 2025 Eesha Singh
 
 
