@@ -52,7 +52,7 @@ Prediction Output:
 ![Workflow](docs/workflow.png)
 
 
-## 🔥 Why Judges Will Love This  
+## 🔥 Features
 | Metric               | TimingPredict        | Traditional Tools  |  
 |----------------------|----------------------|--------------------|  
 | **Speed**            | 0.2 ms/prediction    | 2+ hours           |  
